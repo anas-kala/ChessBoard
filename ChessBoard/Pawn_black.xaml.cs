@@ -1,8 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
@@ -16,18 +14,13 @@ using System.Windows.Shapes;
 namespace ChessBoard
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Interaction logic for Pawn_black.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class Pawn_black : UserControl
     {
-        public MainWindow()
+        public Pawn_black()
         {
             InitializeComponent();
-        }
-
-        private void Grid_ContextMenuClosing(object sender, ContextMenuEventArgs e)
-        {
-
         }
     }
 }

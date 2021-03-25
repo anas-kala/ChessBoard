@@ -1,8 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
@@ -16,18 +14,13 @@ using System.Windows.Shapes;
 namespace ChessBoard
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Interaction logic for Bishop_white.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class Bishop_white : UserControl
     {
-        public MainWindow()
+        public Bishop_white()
         {
             InitializeComponent();
-        }
-
-        private void Grid_ContextMenuClosing(object sender, ContextMenuEventArgs e)
-        {
-
         }
     }
 }
